@@ -60,8 +60,8 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """ 
-𝕙𝕖𝕪  𝕥𝕙𝕖𝕣𝕖! I'm ꧁༒☬TYSØN☬༒꧂
-telegram Group management with lots of features.
+𝕙𝕖𝕪  𝕥𝕙𝕖𝕣𝕖! I'm 𝙏𝙔𝙎𝞞𝙉
+Powerfull telegram Group management with lots of features.
 ───────────────────────
 × Uptime: 8days, 10h:36m:16s
 ×  `{}` users, across `{}` chats..
@@ -73,7 +73,7 @@ telegram Group management with lots of features.
 buttons = [
     [
         InlineKeyboardButton(
-            text="Aᴅᴅ Mᴇ 🥰", url="t.me/TYSON_THE_LEGEND_BOT?startgroup=true"),
+            text="Aᴅᴅ Mᴇ 🥰", url="t.me/TYSON_THE_MANAGER_BOT?startgroup=true"),
     ],
     [
         InlineKeyboardButton(text="Cᴏᴍᴍᴀɴᴅs ❔", callback_data="help_back"),
@@ -82,8 +82,8 @@ buttons = [
         InlineKeyboardButton(text="Dᴇᴠʟᴏᴘᴇʀ🤓", url="https://t.me/King_Of_Alone_Dark_World"),
     ],
     [
-        InlineKeyboardButton(text="❤️𝕭𝖔𝖙 𝖀𝖕𝖉𝖆𝖙𝖊$💙", url="t.me/TEAM_TYSON"),
-        InlineKeyboardButton(text="✨ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭✨", url="t.me/TYSON_SUPPORT_GROUP"),
+        InlineKeyboardButton(text="❤️𝕭𝖔𝖙 𝖀𝖕𝖉𝖆𝖙𝖊$❤️", url="t.me/TEAM_TYSON"),
+        InlineKeyboardButton(text="✨𝐒𝐮𝐩𝐩𝐨𝐫𝐭✨", url="t.me/TYSON_SUPPORT_GROUP"),
     ],
     [
         InlineKeyboardButton(text="⚠️𝗦𝗼𝘂𝗿𝗰𝗲⚠️🖥️", callback_data="source_"
@@ -648,7 +648,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 5147671960 and DONATION_LINK:
+        if OWNER_ID != 254318997 and DONATION_LINK:
             update.effective_message.reply_text(
                 "You can also donate to the person currently running me "
                 "[here]({})".format(DONATION_LINK),
