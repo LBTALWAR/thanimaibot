@@ -102,7 +102,7 @@
 
          "required": true,
 
-         "value": "5147671960"
+         "value": ""
 
       },
 
@@ -136,7 +136,7 @@
 
          "description": "Your username without the @",
 
-         "value": "TheTelegrampro"
+         "value": ""
 
       },
 
@@ -146,7 +146,7 @@
 
          "required": true,
 
-         "value": "SiderzChat"
+         "value": ""
 
       },
 
